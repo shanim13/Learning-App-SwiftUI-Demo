@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.6.4)
+  - IQAPIClient (2.0.4):
+    - Alamofire (~> 5)
+
+DEPENDENCIES:
+  - IQAPIClient
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - IQAPIClient
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  IQAPIClient: 467bd813487fc3092794a406c1eafa6520785df5
+
+PODFILE CHECKSUM: 2e9cdf480da85fdef8f227b0ed71c0c1130bfe8d
+
+COCOAPODS: 1.11.3

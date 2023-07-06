@@ -1,0 +1,6 @@
+framework module IQAPIClient {
+  umbrella header "IQAPIClient-umbrella.h"
+
+  export *
+  module * { export * }
+}

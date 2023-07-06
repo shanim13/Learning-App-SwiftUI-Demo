@@ -41,8 +41,6 @@ struct TutorsListRowView: View {
 struct TutorsListRowView_Preview: PreviewProvider {
     
     static let tutors = Tutors(results: [Results(gender: "male", name: Name(title: "Teacher", first: "John", last: "Doe"), location: Location(city: "San Francisco", state: "CA"), email: "john.doe@example.com", dob: Dob(date: "1980-01-01", age: 40), phone: "555-1234", cell: "555-5678", picture: Picture(large: "programming", medium: "programming", thumbnail: "programming"), nat: "US")])
-
-//    HabitCell(list:.constant([]), habit: .constant(Habit.preview), isOnCommentSceren: false)
     
     static var previews: some View {
         TutorsListRowView(tutor: tutors.results[0])

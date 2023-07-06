@@ -83,31 +83,4 @@ class TutorsViewModel: ObservableObject {
             }
         }.resume()
     }
-
-    //    func getTutors() {
-    //
-    //            guard let url = URL(string: "https://randomuser.me/api/?results=15") else {
-    //                return
-    //            }
-    //
-    //            URLSession.shared.dataTask(with: url) { data, response, error in
-    //                if let error = error {
-    //                    print(error.localizedDescription)
-    //                    return
-    //                }
-    //
-    //                guard let data = data else {
-    //                    return
-    //                }
-    //
-    //                do {
-    //                    let response = try JSONDecoder().decode(Tutors.self, from: data)
-    //                    DispatchQueue.main.async {
-    //                        self.results = response.results
-    //                    }
-    //                } catch {
-    //                    print(error.localizedDescription)
-    //                }
-    //            }.resume()
-    //    }
 }
